@@ -1,0 +1,72 @@
+/* Reset beberapa gaya default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    line-height: 1.6; /* Jarak antar baris */
+}
+
+header {
+    background: #007BFF; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 20px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks rata tengah */
+}
+
+main {
+    padding: 20px; /* Padding untuk main */
+}
+
+nav {
+    background: #fff; /* Warna latar belakang nav */
+    border-radius: 5px; /* Sudut membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+    padding: 20px; /* Padding untuk nav */
+}
+
+h1 {
+    margin-bottom: 20px; /* Jarak bawah untuk h1 */
+}
+
+.produk-list {
+    list-style-type: none; /* Menghilangkan bullet */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.produk {
+    background: #f9f9f9; /* Warna latar belakang item produk */
+    margin: 10px 0; /* Jarak antar item */
+    padding: 15px; /* Padding untuk item */
+    border-radius: 5px; /* Sudut membulat */
+    transition: background 0.3s; /* Transisi untuk efek hover */
+}
+
+.produk:hover {
+    background: #eaeaea; /* Warna latar belakang saat hover */
+}
+
+.produk a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #333; /* Warna teks */
+    font-weight: bold; /* Teks tebal */
+}
+
+.produk a:hover {
+    color: #007BFF; /* Warna teks saat hover */
+}
+
+footer {
+    text-align: center; /* Teks rata tengah */
+    padding: 20px; /* Padding untuk footer */
+    background: #007BFF; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    position: relative; /* Posisi relatif untuk footer */
+    bottom: 0; /* Menempel di bawah */
+    width: 100%; /* Lebar penuh */
+}
